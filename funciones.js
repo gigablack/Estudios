@@ -49,3 +49,6 @@ por eso no te lo reconoce como variable sino como la cadena de texto nombre lite
 
 En la funcion de las naranjas definiste la funcion con el parametro "precio" pero dentro de la funcion utilizas
 un parametro "numero" que salio de la nada*/
+
+//Si es que eso es el resultante de hacer intentos diferentes jajajajajaja
+

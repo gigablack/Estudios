@@ -15,3 +15,22 @@ saludo ("alejandro");
 //lo que ocurre es que no entiendo bien aun lo de las funciones
 //o como llamarlas!!! Pero igual seria fino que si tienen ejercicios
 //o problemas finos con que pueda ir dandole genial...
+
+
+//AJA AQUI CONSEGUI OTRO PROBLEMITA FIEJNSE EN LAS LINEAS 30 EN ADELANTE
+//ESTOY INTENTANDO QUE AL LLAMAR A LA FUNCION SALUDO ME DIGA "HOLA ALEJANDRO"
+//PERO EN CAMBIO ME IMPRIME EN PANTALLA "HOLA NOMBRE"...
+//Función bien escrita
+var calcular = function (numero) 
+    {
+    var val = numero * 10;
+    console.log(val);
+};
+
+//Función mal escrita con errores de sintaxis
+
+var saludo = function (nombre)
+    {
+        console.log("Hola" + " " + "nombre");
+};
+saludo ("alejandro");

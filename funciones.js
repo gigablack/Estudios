@@ -34,3 +34,13 @@ var saludo = function (nombre)
         console.log("Hola" + " " + "nombre");
 };
 saludo ("alejandro");
+
+//AQUI TENGO OTRO ERROR
+//PUES SE SUPONE QUE CADA NARANJA CUESTA 5 Y QUIERO HACER UNA MULTIPLICACION DE
+//CUANTO ME CUESTA EL TOTAL DE LAS 5 MANZANAS Y PUES ME SALE ERROR EN LA PANTALLA t_t
+var costoNaranjas = function (precio)
+    {
+         var valor = numero * 5;
+        console.log(valor + " " + "cuestan" + " " + "5");
+}
+costoNaranjas ("5");

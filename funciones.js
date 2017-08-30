@@ -44,3 +44,8 @@ var costoNaranjas = function (precio)
         console.log(valor + " " + "cuestan" + " " + "5");
 }
 costoNaranjas ("5");
+/*El propblema que tienes en la funcion del saludo es que en el console.log pusiste el parametro nombre entre comillas..
+por eso no te lo reconoce como variable sino como la cadena de texto nombre literalmente.
+
+En la funcion de las naranjas definiste la funcion con el parametro "precio" pero dentro de la funcion utilizas
+un parametro "numero" que salio de la nada*/

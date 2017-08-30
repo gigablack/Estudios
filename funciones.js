@@ -8,9 +8,10 @@ var saludo = function (nombre) {
 };
 
 //¡En la línea 11, llama a la función de saludo!
+saludo ("alejandro");
 
 
-
-//Este es el ejercicio que me tiene vienco para los lados jajajaja
+//ok ya encontre como llamar la funcion jajajaja
 //lo que ocurre es que no entiendo bien aun lo de las funciones
-//o como llamarlas xD please help!!!
+//o como llamarlas!!! Pero igual seria fino que si tienen ejercicios
+//o problemas finos con que pueda ir dandole genial...

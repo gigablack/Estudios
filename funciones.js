@@ -21,7 +21,7 @@ saludo ("alejandro");
 //ESTOY INTENTANDO QUE AL LLAMAR A LA FUNCION SALUDO ME DIGA "HOLA ALEJANDRO"
 //PERO EN CAMBIO ME IMPRIME EN PANTALLA "HOLA NOMBRE"...
 //Función bien escrita
-var calcular = function (numero) 
+var calcular = function (numero)
     {
     var val = numero * 10;
     console.log(val);
@@ -50,7 +50,7 @@ costoNaranjas ("5");
         var valor = precio * 5;
         console-log("5 naranjas cuestan " + valor);
         }
-   
+
    costoNaranjas(5);
    */
 /*El propblema que tienes en la funcion del saludo es que en el console.log pusiste el parametro nombre entre comillas..
@@ -60,4 +60,5 @@ En la funcion de las naranjas definiste la funcion con el parametro "precio" per
 un parametro "numero" que salio de la nada*/
 
 //Si es que eso es el resultante de hacer intentos diferentes jajajajajaja
-
+/* Estoy intentando hacer unas pruebas con atom y la app de guithub de windows para ver como funciona
+*/

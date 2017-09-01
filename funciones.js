@@ -31,7 +31,7 @@ var calcular = function (numero)
 
 var saludo = function (nombre)
     {
-        console.log("Hola" + " " + "nombre");
+        console.log("Hola" + " " + "nombre"); //en esta linea quitale las comillas a nombre
 };
 saludo ("alejandro");
 
@@ -44,6 +44,15 @@ var costoNaranjas = function (precio)
         console.log(valor + " " + "cuestan" + " " + "5");
 }
 costoNaranjas ("5");
+
+/* var costoNaranjas = function (precio)
+    {
+        var valor = precio * 5;
+        console-log("5 naranjas cuestan " + valor);
+        }
+   
+   costoNaranjas(5);
+   */
 /*El propblema que tienes en la funcion del saludo es que en el console.log pusiste el parametro nombre entre comillas..
 por eso no te lo reconoce como variable sino como la cadena de texto nombre literalmente.
 
